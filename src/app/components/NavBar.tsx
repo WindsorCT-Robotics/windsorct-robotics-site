@@ -33,8 +33,8 @@ const NavBar = () => {
         >
           Windsor
           <Image
-            src='/Images/gear.svg'
-            alt='Gear Icon'
+            src='/Images/gear-white.svg'
+            alt='White Gear Icon'
             className='fill-white animate-spin-slow ml-6 mr-6'
             width={50}
             height={50}
