@@ -3041,6 +3041,8 @@ input, select, textarea {
 			display: block;
 			position: relative;
 			width: 25em;
+			max-width: 30%;
+			object-fit: contain;
 		}
 
 			.spotlights > section > .image img {
