@@ -2566,7 +2566,6 @@ input, select, textarea {
 		border: 0;
 		display: inline-block;
 		position: relative;
-		object-fit: contain;
 	}
 
 		.image img {
@@ -2923,36 +2922,6 @@ input, select, textarea {
 			width: calc(33.33333% - 2.5em);
 		}
 
-		.split > section > .image {
-			background-position: center center;
-			background-size: cover;
-			border-radius: 0;
-			display: block;
-			position: relative;
-			width: 25em;
-		}
-
-			.split > section > .image img {
-				border-radius: 0;
-				display: block;
-			}
-
-			.split > section > .image:before {
-				-moz-transition: opacity 1s ease;
-				-webkit-transition: opacity 1s ease;
-				-ms-transition: opacity 1s ease;
-				transition: opacity 1s ease;
-				background: rgba(49, 36, 80, 0.9);
-				content: '';
-				display: block;
-				height: 100%;
-				left: 0;
-				opacity: 0;
-				position: absolute;
-				top: 0;
-				width: 100%;
-			}
-
 		@media screen and (max-width: 1680px) {
 
 			.split > * {
@@ -3041,8 +3010,6 @@ input, select, textarea {
 			display: block;
 			position: relative;
 			width: 25em;
-			max-width: 30%;
-			object-fit: contain;
 		}
 
 			.spotlights > section > .image img {
@@ -3058,11 +3025,12 @@ input, select, textarea {
 				background: rgba(49, 36, 80, 0.9);
 				content: '';
 				display: block;
+				height: 100%;
 				left: 0;
 				opacity: 0;
 				position: absolute;
 				top: 0;
-				max-width: 33%;
+				width: 100%;
 			}
 
 		.spotlights > section > .content {
