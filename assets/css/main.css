@@ -2912,8 +2912,6 @@ input, select, textarea {
 
 		.split > :nth-child(2n) {
 			padding-left: 2.5em;
-			padding-top: 2.5em;
-			margin-top: 5%
 		}
 
 		.split.style1 > :nth-child(2n - 1) {
@@ -3365,6 +3363,13 @@ input, select, textarea {
 		body.is-preload .wrapper.fade > .inner {
 			opacity: 0;
 		}
+
+/* Spacing */
+
+	.spacing {
+		margin-bottom: 100px;
+	}
+
 
 /* Header */
 
@@ -3910,3 +3915,4 @@ input, select, textarea {
 			}
 
 		}
+
