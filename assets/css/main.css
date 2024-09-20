@@ -2900,7 +2900,6 @@ input, select, textarea {
 		display: -ms-flex;
 		display: flex;
 		align-items: center;
-		padding-top: 3em;
 	}
 
 		.split > * {
@@ -2914,6 +2913,7 @@ input, select, textarea {
 		.split > :nth-child(2n) {
 			padding-left: 2.5em;
 			padding-top: 2.5em;
+			margin-top: 5%
 		}
 
 		.split.style1 > :nth-child(2n - 1) {
